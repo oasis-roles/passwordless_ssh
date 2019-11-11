@@ -89,7 +89,7 @@ Example Playbook
       passwordless_ssh_private_key: "{{ lookup('env', 'HOME') }}/mytestkeys/id_rsa"
       passwordless_ssh_public_key: "{{ lookup('env', 'HOME') }}/mytestkeys/id_rsa.pub"
       passwordless_ssh_user: testuser
-      passwordless_ssh_user_dir: /home/testuser
+      passwordless_ssh_user_home: /home/testuser
 ```
 
 License
